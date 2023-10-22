@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NATS.Client" Version="1.1.0" />
+    <PackageReference Include="NATS.Client.Core" Version="2.0.0-alpha.4" />
+    <PackageReference Include="NATS.Client.Hosting" Version="2.0.0-alpha.4" />
+    <PackageReference Include="NATS.Client.JetStream" Version="2.0.0-alpha.4" />
+    <PackageReference Include="NATS.Client.KeyValueStore" Version="2.0.0-alpha.4" />
+    <PackageReference Include="NATS.JetStreamExampleUtils" Version="1.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="STAN.Client" Version="0.3.0" />
+  </ItemGroup>
+
+</Project>

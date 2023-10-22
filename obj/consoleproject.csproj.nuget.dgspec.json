@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\fabrizio\\Downloads\\consoleproject_subscribe\\pubsub_C#_subscribe\\consoleproject.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\fabrizio\\Downloads\\consoleproject_subscribe\\pubsub_C#_subscribe\\consoleproject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fabrizio\\Downloads\\consoleproject_subscribe\\pubsub_C#_subscribe\\consoleproject.csproj",
+        "projectName": "consoleproject",
+        "projectPath": "C:\\Users\\fabrizio\\Downloads\\consoleproject_subscribe\\pubsub_C#_subscribe\\consoleproject.csproj",
+        "packagesPath": "C:\\Users\\fabrizio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fabrizio\\Downloads\\consoleproject_subscribe\\pubsub_C#_subscribe\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fabrizio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "NATS.Client": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "NATS.Client.Core": {
+              "target": "Package",
+              "version": "[2.0.0-alpha.4, )"
+            },
+            "NATS.Client.Hosting": {
+              "target": "Package",
+              "version": "[2.0.0-alpha.4, )"
+            },
+            "NATS.Client.JetStream": {
+              "target": "Package",
+              "version": "[2.0.0-alpha.4, )"
+            },
+            "NATS.Client.KeyValueStore": {
+              "target": "Package",
+              "version": "[2.0.0-alpha.4, )"
+            },
+            "NATS.JetStreamExampleUtils": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "STAN.Client": {
+              "target": "Package",
+              "version": "[0.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
